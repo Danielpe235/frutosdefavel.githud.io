@@ -36,14 +36,15 @@ section{
 }
 div#sbn{
     grid-area: a;
+    min-width: 80%;
 }
 div#ps{
-    
     grid-area: b;
+    min-width: 80%;
 }
-div#rd{
-   
+div#rd{ 
     grid-area: c;
+    min-width: 80%;
 }
 #sec{
     
