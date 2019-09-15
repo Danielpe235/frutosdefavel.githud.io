@@ -9,8 +9,7 @@ html, body{
 }
 div#menu{
     background: rgba(59, 59, 151, 0.479);
-    height: 95px;
-    
+    height: 95px;  
 }
 header{
     text-align: center;
