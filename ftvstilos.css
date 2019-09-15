@@ -36,27 +36,27 @@ section{
 }
 div#sbn{
     grid-area: a;
-    min-width: 100px;
 }
 div#ps{
     grid-area: b;
-    min-width: 100px;
 }
 div#rd{ 
     grid-area: c;
-    min-width: 100px;
 }
 #sec{
     
     display: grid;
-    grid-auto-columns: 1fr 1fr;
-    grid-auto-rows:  1fr 1fr 1fr;
-    grid-row-gap: 0px;
-    align-content: flex-start;
+    grid-auto-columns: 1fr;
+    grid-auto-rows:  2fr 1fr 2fr 1fr 2fr 1fr;
+    align-content: center;
     justify-content: center;
-    grid-template-areas: " a i "
-                         " j b "
-                         " c k "
+
+    grid-template-areas: " a "
+                         " i "
+                         " b "
+                         " j "
+                         " c "
+                         " k "
 
 }
 #sec > div{
