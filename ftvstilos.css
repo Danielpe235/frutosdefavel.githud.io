@@ -9,7 +9,7 @@ html, body{
 }
 div#menu{
     background: rgba(59, 59, 151, 0.479);
-    height: 95px;  
+    height: 95px;  git 
 }
 header{
     text-align: center;
@@ -43,11 +43,12 @@ div#rd{
     
     display: grid;
     grid-auto-columns: 1fr;
-    grid-auto-rows:  2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-auto-rows:  1fr 1fr 1fr 1fr 1fr 1fr;
     align-content: center;
     justify-content: center;
     max-height: 1700px;
     max-width: 800px;
+   
     grid-template-areas: " a a "
                          " x i "
                          " b b "
@@ -62,7 +63,6 @@ div#rd{
 #box1{
     background: rgba(133, 241, 111, 0.658);
     grid-area: i;
-
 }
 #box2{
     background: rgba(133, 241, 111, 0.658);
@@ -102,15 +102,14 @@ h1{
 img#img2{
     margin-top: 10px;
     margin-right: 10px;
-    max-width: 400px;
-    min-width: 50px;
     grid-area: x;
+    width: 100%;
+    
     
 }
 img#img3{
     margin-top: 30px;
     margin-right: 10px;
-    max-width: 400px;
-    min-width: 50px;
     grid-area: y;
+    width: 100%; 
 }
