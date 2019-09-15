@@ -33,9 +33,11 @@ div#sbn{
 }
 div#ps{
     grid-area: b;
+    margin: auto;
 }
 div#rd{ 
     grid-area: c;
+    margin: auto;
 }
 #sec{
     
@@ -44,7 +46,8 @@ div#rd{
     grid-auto-rows:  2fr 1fr 2fr 1fr 2fr 1fr;
     align-content: center;
     justify-content: center;
-
+    max-height: 1700px;
+    max-width: 800px;
     grid-template-areas: " a a "
                          " x i "
                          " b b "
@@ -85,8 +88,6 @@ h1{
      font-family: cursive;
  }
  img{
-    max-width: 300px;
-    min-width: 100px;
     box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.527);
     margin: auto;
  }
@@ -94,17 +95,22 @@ h1{
      text-align: center;
      
  }
+ img#img1{
+    max-width: 300px;
+    min-width: 100px;
+ }
 img#img2{
     margin-top: 10px;
     margin-right: 10px;
-    max-width: 300px;
+    max-width: 400px;
     min-width: 50px;
     grid-area: x;
+    
 }
 img#img3{
     margin-top: 30px;
     margin-right: 10px;
-    max-width: 300px;
+    max-width: 400px;
     min-width: 50px;
     grid-area: y;
 }
