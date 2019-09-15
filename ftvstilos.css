@@ -46,10 +46,10 @@ div#rd{
     justify-content: center;
 
     grid-template-areas: " a a "
-                         " i x "
-                         " b x "
+                         " x i "
+                         " b b "
                          " y j "
-                         " y c "
+                         " c c "
                          " k k "
 
 }
