@@ -4,53 +4,71 @@ html, body{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background: rgb(236, 231, 231);
+    background: rgba(118, 191, 224, 0.596);
+    font: normal 20px arial ;
 }
 div#menu{
-    background: black;
+    background: rgba(59, 59, 151, 0.479);
     text-align: center;
+    height: 40px;
 }
 header{
     text-align: center;
+    font: italic 50px cursive;
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    height: 100px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.438);
    
+}
+p{
+    text-align: left;
+    margin-left: 10px;
 }
 section{
     text-align: center;
-    background: rgb(189, 172, 172);
-    border-radius: 20px;
+    background:white;
     width: 95%;
     margin: auto;
-    height: 80%;
-    
+    height: 1fr;
+    margin-top: 10px;
 }
 div#sbn{
-    background: blue;
     grid-area: a;
 }
 div#ps{
-    background: green;
+    
     grid-area: b;
 }
 div#rd{
-    background: red;
+   
     grid-area: c;
 }
 #sec{
     
     display: grid;
     grid-auto-columns: 1fr 1fr;
-    grid-auto-rows:  1fr 1fr;
+    grid-auto-rows:  1fr 1fr 1fr;
     grid-row-gap: 0px;
     align-content: flex-start;
     justify-content: center;
-    grid-template-areas: " a b"
-                         " c c"
+    grid-template-areas: " a i "
+                         " j b "
+                         " c k "
 
 }
 #sec > div{
-    
-    border-radius: 15px;
-    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);
-   
     text-align: center;
 }
+#img1{
+    background: yellow;
+    grid-area: i;
+}
+#img2{
+    background: blue;
+     grid-area: j;
+ }
+ #img3{
+    background: brown;
+     grid-area: k;
+ }
