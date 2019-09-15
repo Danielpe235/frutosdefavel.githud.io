@@ -10,27 +10,8 @@ html, body{
 div#menu{
     background: rgba(59, 59, 151, 0.479);
     height: 95px;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 0px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
 }
-#menu > div{
-    background: rgba(68, 216, 196, 0.541);
-    text-align: center;
-    width: 150px;
-    border-radius: 10px;
-    border-bottom: 10px;
-    border-style: solid;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.514);
-    color: black;
-    font-style: cursive;
-   
-}
-
 header{
     text-align: center;
     font: italic 50px cursive;
@@ -41,7 +22,6 @@ header{
     width: 80%;
     margin: auto;      
 }
-
 p{
     text-align: left;
     margin-left: 10px;
