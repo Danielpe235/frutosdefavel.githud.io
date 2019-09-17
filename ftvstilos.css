@@ -9,7 +9,7 @@ html, body{
 }
 div#menu{
     background: rgba(59, 59, 151, 0.479);
-    height: 95px;  git 
+    height: 95px;  
 }
 header{
     text-align: center;
@@ -53,11 +53,12 @@ div#rd{
     max-width: 800px;
    
     grid-template-areas: " a a "
-                         " i i "
+                         " i x "
                          " b b "
-                         " j j "
+                         " y j "
                          " c c "
                          " k k "
+                         " z z "
 
 }
 #sec > div{
@@ -73,7 +74,22 @@ div#rd{
  }
  #box3{
     background: rgba(133, 241, 111, 0.658);
-     grid-area: k;
+    grid-area: k;
+    
+ }
+ #box4{
+    background: rgba(245, 123, 24, 0.527);
+    grid-area: x;
+ }
+ #box5{
+    background: rgba(245, 123, 24, 0.527);
+    grid-area: y;
+    
+ }
+ #box6{
+    background: rgba(245, 123, 24, 0.527);
+    grid-area: z;
+    
  }
  footer{
      font-style: italic;
@@ -105,15 +121,36 @@ h1{
  }
 img#img2{
     margin-top: 30px;
-    margin-right: 10px;
-    width: 70%;
+    width: 90%;
     margin-bottom: 30px;
     max-width: 400px;
+    
 }
 img#img3{
     margin-top: 30px;
-    margin-right: 10px; 
-    width: 70%; 
+    width: 90%; 
     margin-bottom: 30px;
     max-width: 400px;
+}
+audio{
+   margin-top: 30px;
+  
+}
+#box4 > p{
+    font: normal 18px arial;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#box5 > p{
+    font: normal 18px arial;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
