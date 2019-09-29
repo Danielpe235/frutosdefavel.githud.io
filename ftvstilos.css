@@ -55,7 +55,7 @@ div#rd{
     grid-template-areas: " a a "
                          " i i "
                          " b b "
-                         " y j "
+                         " j j "
                          " c c "
                          " k k "
                          " z z "
@@ -66,17 +66,17 @@ div#rd{
 }
 #box1{
     background: rgba(133, 241, 111, 0.658);
-    min-width: 400px;
+    min-width: 250px;
     flex-grow: 1;
 }
 #box2{
     background: rgba(133, 241, 111, 0.658);
-     grid-area: j;
+    min-width: 250px;
+     flex-grow: 1;
  }
  #box3{
     background: rgba(133, 241, 111, 0.658);
     grid-area: k;
-
  }
  #box4{
     background: rgba(245, 123, 24, 0.527);
@@ -86,11 +86,11 @@ div#rd{
 #box5{
     background: rgba(245, 123, 24, 0.527);
     grid-area: y;
+    flex-grow: 1;
 }
  #box6{
     background: rgba(245, 123, 24, 0.527);
-    grid-area: z;
-    
+    grid-area: z;   
  }
  footer{
      font-style: italic;
@@ -123,15 +123,15 @@ h1{
  }
 img#img2{
     margin-top: 30px;
-    min-width: 300px;
+    min-width: 200px;
     margin-bottom: 30px;
     max-width: 350px;
 }
 img#img3{
     margin-top: 30px;
-    width: 90%; 
+    min-width: 200px;
     margin-bottom: 30px;
-    max-width: 400px;
+    max-width: 350px;
 }
 audio{
    margin-top: 30px;
@@ -155,6 +155,7 @@ audio{
     justify-items: center;
     align-items: center;
     margin-bottom: 10px;
+    max-width: 300px;
 }
 .secflex1{
     grid-area: i;
@@ -164,5 +165,16 @@ audio{
     height: 100%;;
     margin-top: 0px;
     flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.secflex2{
+    grid-area: j;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;;
+    margin-top: 0px;
+    flex-wrap: wrap-reverse;
     box-sizing: border-box;
 }
