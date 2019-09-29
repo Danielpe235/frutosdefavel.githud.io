@@ -49,7 +49,7 @@ div#rd{
     grid-auto-rows:  1fr 1fr 1fr 1fr 1fr 1fr;
     align-content: center;
     justify-content: center;
-    max-height: 1700px;
+    max-height: 2500px;
     max-width: 800px;
    
     grid-template-areas: " a a "
